@@ -10,6 +10,7 @@
 #  *** Wind classification ***
 # Enter wind speed (km/h) : 23.25
 # Wind classification is Breeze.
+
 print(' *** Wind classification ***')
 n = float(input('Enter wind speed (km/h) : '))
 

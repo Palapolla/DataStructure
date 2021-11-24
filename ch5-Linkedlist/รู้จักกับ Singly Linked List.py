@@ -34,13 +34,13 @@ class LinkedList:
             cur = cur.next
         return s
 
-    def __len__(self) :               # เพิ่ม เมื่อ เติมข้อมูล  ลด เมื่อ นำข้อมูลออก
+    def __len__(self) :               
         return self.size_ 
 
     def isEmpty(self):
         return self.head == None
 
-    def nodeAt(self,i) :              # หาค่าตำแหน่งของโหนด เทียบกับ อินเด็กซ์
+    def nodeAt(self,i) :
         p = self.head
         for j in range(0,i) :
             p = p.next

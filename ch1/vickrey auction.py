@@ -9,19 +9,17 @@
 # "winner bid is $ need to pay $"
 
 # """
-# x = [int(i) for i in input("Enter All Bid : ").split()]
+x = [int(i) for i in input("Enter All Bid : ").split()]
 
-# highest = max(x)
+highest = max(x)
 
-# if len(x) == 1:
-#     print("not enough bidder")
-# elif x.count(highest) > 1:
-#     print("error : have more than one highest bid")
-# else:
-#     x.remove(highest)
-#     nHigh = max(x)
-#     print("winner bid is {} need to pay {}".format(highest, nHigh))
+if len(x) == 1:
+    print("not enough bidder")
+elif x.count(highest) > 1:
+    print("error : have more than one highest bid")
+else:
+    x.remove(highest)
+    nHigh = max(x)
+    print("winner bid is {} need to pay {}".format(highest, nHigh))
 
 
-a = '01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789'
-print(a.count('0'))
